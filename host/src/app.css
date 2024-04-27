@@ -1,0 +1,19 @@
+#root {
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.footer {
+    height: 50px;
+    padding: 20px;
+    border-top: solid 1px var(--border-color);
+    display: flex;
+    align-items: center;
+
+}
+
+.main {
+    padding: 20px;
+}

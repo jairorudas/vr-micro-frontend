@@ -1,0 +1,14 @@
+
+.bold{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.normal{
+    font-weight: 500;
+}
+
+.resetTag{
+    margin: 0;
+    appearance: none;
+}

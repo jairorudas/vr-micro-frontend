@@ -1,0 +1,30 @@
+.card {
+    border: 1px solid var(--border-color);
+    max-width: 300px;
+    height: 350px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 16px;
+    overflow: hidden;
+    align-items: center;
+    background-color: #fff;
+}
+
+.messages {
+    text-align: center;
+}
+
+.img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}

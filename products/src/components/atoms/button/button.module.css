@@ -1,0 +1,24 @@
+.button {
+    background-color: var(--primary-color);
+    color: var(--secondary-text-color);
+    border: none;
+    border-radius: 100px;
+    height: 40px;
+    width: 109px;
+    cursor: pointer;
+}
+.bold {
+    font-weight: 700;
+}
+.normal {
+    font-weight: 400;
+}
+.medium {
+    font-size: 16px;
+}
+.large {
+    font-size: 20px;
+}
+.small {
+    font-size: 14px;
+}

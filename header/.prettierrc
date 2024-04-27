@@ -1,0 +1,35 @@
+{
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "endOfLine": "auto",
+  "tabWidth": 2,
+  "printWidth": 80,
+  "htmlWhitespaceSensitivity": "css",
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "endOfLine": "lf"
+      }
+    },
+    {
+      "files": "*.tsx",
+      "options": {
+        "endOfLine": "lf"
+      }
+    },
+    {
+      "files": "*.json",
+      "options": {
+        "endOfLine": "lf"
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "endOfLine": "lf"
+      }
+    }
+  ]
+}
