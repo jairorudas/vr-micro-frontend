@@ -1,7 +1,7 @@
 import CartIcon from './cartIcon';
 import styles from './header.module.css';
 import Logo from '../../assets/logo-vr.webp';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import PubSub from 'pubsub-js';
 import { useFetchEventsHeader, useFetchEventsProducts } from '../../services';
 
