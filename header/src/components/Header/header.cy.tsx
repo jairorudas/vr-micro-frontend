@@ -13,4 +13,13 @@ describe('Header Component Tests', () => {
 
     cy.get('._badge_9fiam_28 > span').should('contain', '0');
   });
+
+  it('cart updates when product added via pubsub event', () => {
+    mount(<Header />);
+    cy.window().then(win => {
+      const products = [{ id: 1 }, { id: 2 }];
+      win.PubSub.publish('add_product', { productsSelected: products });
+      cy.get('._badge_9fiam_28 > span').contains('2');
+    });
+  });
 });
