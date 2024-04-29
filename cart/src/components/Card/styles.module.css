@@ -1,14 +1,20 @@
-.card{
+.card {
     display: flex;
     border-radius: 8px;
     height: 75px;
-    width: 417px;
+    width: 100%;
     padding: 0px 11px;
     justify-content: space-between;
     align-items: center;
     border: 1px solid var(--primary-color);
     box-shadow: 0 0 2px var(--primary-color);
     overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+    .card {
+        width: 417px;
+    }
 }
 
 .figure {
@@ -20,7 +26,7 @@
     align-items: center;
 }
 
-.img{
+.img {
     width: 80px;
     border-radius: 5px;
     margin-right: 5px;
