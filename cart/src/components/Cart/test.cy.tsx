@@ -1,4 +1,3 @@
-import React from 'react';
 import { mount } from '@cypress/react18';
 import Cart from './index'; // Ajuste o caminho conforme necessário
 import './styles.module.css'; // Inclua os estilos se necessário

@@ -1,14 +1,21 @@
-import React from 'react';
 import { mount } from '@cypress/react18';
 import Card from './index';
 
+
 describe('Card Component', () => {
     const productData = {
-        id: '1',
+        id: 1,
         thumbnail: 'http://example.com/thumbnail.jpg',
         title: 'Product Example',
         description: 'This is a detailed description of the product that is longer than 80 characters to test text truncation.',
-        price: '100,00'
+        price: 100,
+        discountPercentage: 0,
+        rating: 0,
+        stock: 0,
+        brand: '',
+        category: '',
+        images: [],
+
     };
 
     it('renders the product card with truncated text', () => {
