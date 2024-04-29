@@ -1,14 +1,25 @@
-
-.bold{
+.bold {
     font-weight: 700;
     font-size: 16px;
 }
 
-.normal{
+.normal {
     font-weight: 500;
 }
 
-.resetTag{
+.resetTag {
     margin: 0;
     appearance: none;
+}
+
+.medium {
+    font-size: 16px;
+}
+
+.large {
+    font-size: 20px;
+}
+
+.small {
+    font-size: 14px;
 }
